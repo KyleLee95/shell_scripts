@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Copied from: https://github.com/fsouza/prettierd/issues/645
 is_nvim_running() {
   pgrep -x nvim &> /dev/null
 }
